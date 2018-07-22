@@ -8,5 +8,6 @@
     <string name="action_share">Share</string>
 
     <string name="up">Up</string>
-
+    <string name="by">by %s</string>
+    <string name="thumbnail">Thumbnail</string>
 </resources>
