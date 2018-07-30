@@ -10,4 +10,15 @@
     <dimen name="list_bottom_margin">28dp</dimen>
     <dimen name="default_elevation">8dp</dimen>
 
+    <dimen name="thumbnail_height">100dp</dimen>
+    <dimen name="appbar_image_detail_height">256dp</dimen>
+
+
+    <dimen name="padding_xs">4dp</dimen>
+    <dimen name="padding_s">8dp</dimen>
+    <dimen name="padding_m">12dp</dimen>
+    <dimen name="padding_l">16dp</dimen>
+    <dimen name="padding_xl">24dp</dimen>
+    <dimen name="title_margin_start">48dp</dimen>
+    <dimen name="title_margin_end">64dp</dimen>
 </resources>

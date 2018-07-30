@@ -9,5 +9,7 @@
 
     <string name="up">Up</string>
     <string name="by">by %s</string>
+    <string name="format_title_detail">%s by %s</string>
     <string name="thumbnail">Thumbnail</string>
+    <string name="format_sharing_text">Check this awesome book by %s!\n%s\nYou must read it! </string>
 </resources>
