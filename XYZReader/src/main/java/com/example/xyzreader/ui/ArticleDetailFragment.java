@@ -97,6 +97,13 @@ public class ArticleDetailFragment extends Fragment implements
         toolbar = mRootView.findViewById(R.id.toolbar);
         ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
         ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getActivity().finish();
+            }
+        });
+
         collapsingToolbar = mRootView.findViewById(R.id.collapsing_toolbar);
         mPhotoView = mRootView.findViewById(R.id.backdrop);
         tvAutor = mRootView.findViewById(R.id.tvAutor);
